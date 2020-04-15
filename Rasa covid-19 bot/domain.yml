@@ -1,0 +1,143 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_challenge
+- corona_intro
+- corona_spread
+- corona_food_spread
+- warm_weather
+- high_risk
+- corona_symptom
+- protection_and_precautions
+- treatment_vaccine
+responses:
+  utter_greet:
+  - text: Hey! How are you?
+  utter_cheer_up:
+  - text: 'Here is something to cheer you up:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am a bot, powered by Rasa.
+  utter_corona_intro:
+  - text: Coronaviruses are a group of related viruses that cause diseases in mammals
+      and birds. In humans, coronaviruses cause respiratory tract infections that
+      can be mild, such as some cases of the common cold (among other possible causes,
+      predominantly rhinoviruses), and others that can be lethal, such as SARS, MERS,
+      and COVID-19
+  utter_corona_spread:
+  - text: "This virus was first detected in Wuhan City, Hubei Province, China. The\
+      \ first infections were linked to a live animal market, but the virus is now\
+      \ spreading from person-to-person. It’s important to note that person-to-person\
+      \ spread can happen on a continuum. Some viruses are highly contagious (like\
+      \ measles), while other viruses are less so. The virus that causes COVID-19\
+      \ is spreading from person-to-person. Someone who is actively sick with COVID-19\
+      \ can spread the illness to others. That is why we recommend that these patients\
+      \ be isolated either in the hospital or at home (depending on how sick they\
+      \ are) until they are better and no longer pose a risk of infecting others.\n\
+      How long someone is actively sick can vary so the decision on when to release\
+      \ someone from isolation is made on a case-by-case basis in consultation with\
+      \ doctors, infection prevention and control experts, and public health officials\
+      \ and involves considering specifics of each situation including disease severity,\
+      \ illness signs and symptoms, and results of laboratory testing for that patient.\n\
+      The virus that causes COVID-19 seems to be spreading easily and sustainably\
+      \ in the community (“community spread”) in some affected geographic areas. Community\
+      \ spread means people have been infected with the virus in an area, including\
+      \ some who are not sure how or where they became infected."
+  utter_corona_food_spread:
+  - text: Coronaviruses are generally thought to be spread from person-to-person through
+      respiratory droplets. Currently there is no evidence to support transmission
+      of COVID-19 associated with food. Before preparing or eating food it is important
+      to always wash your hands with soap and water for 20 seconds for general food
+      safety. Throughout the day wash your hands after blowing your nose, coughing
+      or sneezing, or going to the bathroom.
+  utter_warm_weather:
+  - text: It is not yet known whether weather and temperature impact the spread of
+      COVID-19. Some other viruses, like the common cold and flu, spread more during
+      cold weather months but that does not mean it is impossible to become sick with
+      these viruses during other months.  At this time, it is not known whether the
+      spread of COVID-19 will decrease when weather becomes warmer.  There is much
+      more to learn about the transmissibility, severity, and other features associated
+      with COVID-19 and investigations are ongoing.
+  utter_high_risk:
+  - text: Older adults and people of any age who have serious underlying medical conditions
+      may be at higher risk for more serious complications from COVID-19. These people
+      who may be at higher risk of getting very sick from this illness, includes;
+      Older adults, People who have serious underlying medical conditions like...
+      Heart disease, Diabetes, Lung disease,
+  utter_corona_symptom:
+  - text: The most common symptoms of COVID-19 are fever, tiredness, and dry cough.
+      Some patients may have aches and pains, nasal congestion, runny nose, sore throat
+      or diarrhea. These symptoms are usually mild and begin gradually. Some people
+      become infected but don’t develop any symptoms and don't feel unwell. Most people
+      (about 80%) recover from the disease without needing special treatment. Around
+      1 out of every 6 people who gets COVID-19 becomes seriously ill and develops
+      difficulty breathing. Older people, and those with underlying medical problems
+      like high blood pressure, heart problems or diabetes, are more likely to develop
+      serious illness. People with fever, cough and difficulty breathing should seek
+      medical attention.
+  utter_protection_and_precautions:
+  - text: You can reduce your chances of being infected or spreading COVID19 by taking
+      some simple precautions- • Regularly and thoroughly clean your hands with an
+      alcoholbased hand rub or wash them with soap and water. Why? Washing your hands
+      with soap and water or using alcohol-based hand rub kills viruses that may be
+      on your hands. • Maintain at least 1 metre (3 feet) distance between yourself
+      and anyone who is coughing or sneezing. Why? When someone coughs or sneezes
+      they spray small liquid droplets from their nose or mouth which may contain
+      virus. If you are too close, you can breathe in the droplets, including the
+      COVID-19 virus if the person coughing has the disease. • Avoid touching eyes,
+      nose and mouth. Why? Hands touch many surfaces and can pick up viruses. Once
+      contaminated, hands can transfer the virus to your eyes, nose or mouth. From
+      there, the virus can enter your body and can make you sick. • Make sure you,
+      and the people around you, follow good respiratory hygiene. This means covering
+      your mouth and nose with your bent elbow or tissue when you cough or sneeze.
+      Then dispose of the used tissue immediately. Why? Droplets spread virus. By
+      following good respiratory hygiene you protect the people around you from viruses
+      such as cold, flu and COVID-19. • Stay home if you feel unwell. If you have
+      a fever, cough and difficulty breathing, seek medical attention and call in
+      advance. Follow the directions of your local health authority. Why? National
+      and local authorities will have the most up to date information on the situation
+      in your area. Calling in advance will allow your health care provider to quickly
+      direct you to the right health facility. This will also protect you and help
+      prevent spread of viruses and other infections. • Keep up to date on the latest
+      COVID-19 hotspots (cities or local areas where COVID-19 is spreading widely).
+      If possible, avoid traveling to places – especially if you are an older person
+      or have diabetes, heart or lung disease. Why? You have a higher chance of catching
+      COVID-19 in one of these  areas.
+  utter_treatment_vaccine:
+  - text: Not yet. To date, there is no vaccine and no specific antiviral medicine
+      to prevent or treat COVID-2019. However, those affected should receive care
+      to relieve symptoms. People with serious illness should be hospitalized. Most
+      patients recover thanks to supportive care. Possible vaccines and some specific
+      drug treatments are under investigation. They are being tested through clinical
+      trials. The most effective ways to protect yourself and others against COVID-19
+      are to frequently clean your hands, cover your cough with the bend of elbow
+      or tissue, and maintain a distance of at least 1 meter (3 feet) from people
+      who are coughing or sneezing
+actions:
+- utter_greet
+- utter_did_that_help
+- utter_goodbye
+- utter_iamabot
+- utter_corona_intro
+- utter_corona_spread
+- utter_corona_food_spread
+- utter_warm_weather
+- utter_high_risk
+- utter_cheer_up
+- utter_happy
+- utter_corona_symptom
+- utter_protection_and_precautions
+- utter_treatment_vaccine
